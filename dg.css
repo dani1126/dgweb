@@ -1,0 +1,53 @@
+body{
+    font-family: sans-serif;
+    
+}
+.nav>ul{
+    display: flex;
+    flex-direction: row;
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+ul,li{
+    padding: 10px;
+    margin: 10px;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    padding: 10px;
+    margin: 10px;
+     
+}
+.logo.img{
+    padding: 20px;
+}
+.updates{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+.updates>div{
+    margin: 10px;
+    padding: 10px;
+    border: 10px solid black;
+    border-radius: 5px;
+}
+.d{
+    background-color: greenyellow;
+}
